@@ -28,12 +28,22 @@ from cc.report import ranked_flags
 st.set_page_config(page_title="Continuity Checker", page_icon="🎬", layout="wide")
 
 # Streamlit Community Cloud: there is no .env file there, so API keys come from the app's Secrets settings.
+SECRETS_PROBLEM = ""   # "format" when the Secrets box can't be read, "" otherwise
+
+
+def _load_secrets(section) -> None:
+    for k, v in section.items():
+        if isinstance(v, str) and v.strip() and not os.environ.get(k):
+            os.environ[k] = v.strip()
+        elif hasattr(v, "items"):   # keys put under a [heading] still count
+            _load_secrets(v)
+
+
 try:
-    for _k, _v in st.secrets.items():
-        if isinstance(_v, str) and _v and not os.environ.get(_k):
-            os.environ[_k] = _v
-except Exception:
-    pass  # no secrets configured (normal when running locally with .env)
+    _load_secrets(st.secrets)
+except Exception as _e:   # no secrets at all is normal locally (keys come from .env)
+    if "toml" in type(_e.__cause__).__module__.lower() if _e.__cause__ else False:
+        SECRETS_PROBLEM = "format"
 ON_CLOUD = Path("/mount/src").exists()   # where Streamlit Community Cloud places the app's code
 RUNS = ROOT / "app_runs"
 CACHE = ROOT / ".cache" / "llm_cache.sqlite"
@@ -348,6 +358,16 @@ with st.sidebar:
         ss["check_type"] = options[1]
         st.radio("Type of check", options, captions=captions, index=1, disabled=True, label_visibility="collapsed")
         st.info("Smart check isn't set up yet. Ask your admin to add the AI keys.", icon=":material/info:")
+        with st.expander("For the admin", icon=":material/admin_panel_settings:"):
+            if SECRETS_PROBLEM == "format":
+                st.markdown("The **Secrets** box has a typing mistake, so the key can't be read. "
+                            "Each line must look exactly like this, quotes included:")
+            elif ON_CLOUD:
+                st.markdown("On **share.streamlit.io**, open this app's **⋮ → Settings → Secrets** and add:")
+            else:
+                st.markdown("Add this line to the **.env** file in the project folder, then restart the app:")
+            st.code("\n".join(f'{k} = "your-key"' if (ON_CLOUD or SECRETS_PROBLEM) else f"{k}=your-key"
+                              for k in missing), language="toml")
     else:
         ss["check_type"] = st.radio("Type of check", options, captions=captions, label_visibility="collapsed",
                                     index=0 if ss.get("check_type", options[0]).startswith("Smart") else 1)
