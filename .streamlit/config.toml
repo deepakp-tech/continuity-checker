@@ -1,0 +1,24 @@
+# Look and feel of the editor app (colours: white smoke #F0F0F0 + bright red #E7473C)
+[theme]
+base = "light"
+primaryColor = "#E7473C"
+backgroundColor = "#F0F0F0"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F1D1D"
+linkColor = "#C7362C"
+borderColor = "#E2E0E0"
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+baseFontSize = 15
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F6F6"
+borderColor = "#ECEAEA"
+
+[client]
+toolbarMode = "minimal"

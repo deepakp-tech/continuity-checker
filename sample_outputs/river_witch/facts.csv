@@ -1,0 +1,7 @@
+fact_id,subject,subject_raw,subject_resolved,type,attribute,attribute_raw,value,source,speaker,line_id,episode,ord,quote,quote_score,entailment,verified,drop_reason,model
+1,Mohan,Mohan,1,relationship,Kavya,Kavya,brother,dialogue,KAVYA,E001-S01-L0002,1,1,Mohan is my brother,100.0,,1,,rules (no LLM)
+2,Dadi,Dadi,1,relationship,Kavya,Kavya,brother,dialogue,KAVYA,E001-S01-L0002,1,1,"my brother, Dadi",100.0,,1,,rules (no LLM)
+3,Raja,Raja,1,status,life,life,dead,action,,E003-S01-L0001,3,0,The Raja dies,100.0,,1,,rules (no LLM)
+4,Mohan,Mohan,1,status,life,life,dead,action,,E004-S01-L0001,4,0,Mohan is killed,100.0,,1,,rules (no LLM)
+5,Mohan,Mohan,1,relationship,Kavya,Kavya,cousin,action,,E006-S01-L0001,6,0,Mohan is Kavya's cousin,100.0,,1,,rules (no LLM)
+6,Kavya,Kavya,1,possession,mirror,mirror,has,action,,E006-S01-L0002,6,1,Kavya holds the mirror,100.0,,1,,rules (no LLM)

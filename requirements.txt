@@ -1,0 +1,7 @@
+pydantic>=2.5
+pyyaml>=6.0
+requests>=2.31
+streamlit>=1.58        # editor app (the design uses 1.58 features)
+rapidfuzz>=3.0         # optional: faster fuzzy matching (a stdlib fallback is built in)
+mcp>=1.2               # optional: MCP server (works with mcp 1.x and 2.x)
+pytest>=7.0            # tests

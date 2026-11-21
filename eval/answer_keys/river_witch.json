@@ -1,0 +1,115 @@
+{
+  "show": "river_witch",
+  "format": "screenplay",
+  "genre": "fantasy",
+  "alias_groups": [
+    [
+      "KAVYA",
+      "YOUNG KAVYA"
+    ],
+    [
+      "DADI",
+      "DADI MAA"
+    ],
+    [
+      "RUDRA"
+    ],
+    [
+      "THE RAJA"
+    ],
+    [
+      "MOHAN"
+    ],
+    [
+      "TANTRIK"
+    ]
+  ],
+  "expected": [
+    {
+      "id": "B1",
+      "kind": "error",
+      "type": "relationship",
+      "subjects": [
+        "Mohan",
+        "Kavya"
+      ],
+      "episodes": [
+        1,
+        6
+      ],
+      "desc": "Mohan is Kavya's brother in ep 1, cousin in ep 6"
+    },
+    {
+      "id": "B2",
+      "kind": "error",
+      "type": "possession",
+      "subjects": [
+        "Kavya"
+      ],
+      "episodes": [
+        2,
+        6
+      ],
+      "desc": "mirror smashed in ep 2, used whole in ep 6"
+    },
+    {
+      "id": "B3",
+      "kind": "error",
+      "type": "relationship",
+      "subjects": [
+        "Kavya",
+        "Dadi"
+      ],
+      "episodes": [
+        3,
+        6
+      ],
+      "llm_only": true,
+      "desc": "Hinglish: Kavya is Dadi's granddaughter (poti) in ep 3, daughter (beti) in ep 6"
+    },
+    {
+      "id": "T5",
+      "kind": "trap",
+      "type": "status",
+      "subjects": [
+        "Mohan"
+      ],
+      "episodes": [
+        4,
+        5
+      ],
+      "desc": "killed, then brought back by magic (fantasy genre)"
+    },
+    {
+      "id": "T6",
+      "kind": "trap",
+      "type": "status",
+      "subjects": [
+        "Raja",
+        "The Raja"
+      ],
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "the title 'the Raja' passes from father to Rudra"
+    }
+  ],
+  "clean_patch": [
+    {
+      "episode": 6,
+      "find": "Mohan is Kavya's cousin",
+      "replace": "Mohan is Kavya's brother"
+    },
+    {
+      "episode": 2,
+      "find": "Kavya smashes the mirror",
+      "replace": "Kavya hides the mirror"
+    },
+    {
+      "episode": 6,
+      "find": "Meri beti Kavya",
+      "replace": "Meri poti Kavya"
+    }
+  ]
+}

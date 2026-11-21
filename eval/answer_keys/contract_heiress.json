@@ -1,0 +1,217 @@
+{
+  "show": "contract_heiress",
+  "format": "kuku",
+  "genre": "billionaire_romance",
+  "alias_groups": [
+    [
+      "MEERA",
+      "MEERA SHARMA"
+    ],
+    [
+      "ARJUN",
+      "ARJUN MEHRA"
+    ],
+    [
+      "MR. MEHRA"
+    ],
+    [
+      "RIYA"
+    ],
+    [
+      "SHANKAR"
+    ],
+    [
+      "VIKRAM"
+    ],
+    [
+      "NANDINI"
+    ],
+    [
+      "NANDINI'S MOTHER"
+    ]
+  ],
+  "expected": [
+    {
+      "id": "E1",
+      "kind": "error",
+      "type": "relationship",
+      "subjects": [
+        "Riya",
+        "Meera"
+      ],
+      "episodes": [
+        2,
+        6
+      ],
+      "desc": "Riya is Meera's sister in ep 2, her cousin in ep 6"
+    },
+    {
+      "id": "E2",
+      "kind": "error",
+      "type": "status",
+      "subjects": [
+        "Shankar"
+      ],
+      "episodes": [
+        3,
+        7
+      ],
+      "desc": "Shankar dies in ep 3, speaks in ep 7"
+    },
+    {
+      "id": "E3",
+      "kind": "error",
+      "type": "possession",
+      "subjects": [
+        "Meera"
+      ],
+      "episodes": [
+        2,
+        5
+      ],
+      "desc": "contract burned in ep 2, intact in ep 5"
+    },
+    {
+      "id": "E4",
+      "kind": "error",
+      "type": "identity",
+      "subjects": [
+        "Arjun"
+      ],
+      "episodes": [
+        1,
+        6
+      ],
+      "desc": "Arjun is 30 in ep 1, 34 in ep 6 (days later)"
+    },
+    {
+      "id": "E5",
+      "kind": "error",
+      "type": "knowledge",
+      "subjects": [
+        "Meera"
+      ],
+      "episodes": [
+        4,
+        7
+      ],
+      "desc": "Meera learns Arjun is the heir twice"
+    },
+    {
+      "id": "E6",
+      "kind": "error",
+      "type": "relationship",
+      "subjects": [
+        "Arjun",
+        "Vikram"
+      ],
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "Vikram calls Arjun his brother; Arjun calls Vikram his cousin"
+    },
+    {
+      "id": "N1",
+      "kind": "error",
+      "type": "notes",
+      "subjects": [],
+      "episodes": [
+        5,
+        6
+      ],
+      "llm_only": true,
+      "desc": "ep 6 notes say Dadi was in a coma in ep 5; ep 5 shows her recovered"
+    },
+    {
+      "id": "T1",
+      "kind": "trap",
+      "type": "status",
+      "subjects": [
+        "Dadi"
+      ],
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "injured then recovered = story change"
+    },
+    {
+      "id": "T2",
+      "kind": "trap",
+      "type": "possession",
+      "subjects": [
+        "Meera"
+      ],
+      "episodes": [
+        1,
+        4
+      ],
+      "desc": "has the bangle, then loses it = story change"
+    },
+    {
+      "id": "T3",
+      "kind": "trap",
+      "type": "identity",
+      "subjects": [
+        "Arjun"
+      ],
+      "episodes": [
+        1,
+        5
+      ],
+      "desc": "driver disguise, then CEO = hidden identity trope"
+    },
+    {
+      "id": "T4",
+      "kind": "trap",
+      "type": "relationship",
+      "subjects": [
+        "Arjun",
+        "Nandini"
+      ],
+      "episodes": [
+        2,
+        4
+      ],
+      "desc": "Nandini lies to reporters that Arjun is her husband"
+    }
+  ],
+  "clean_patch": [
+    {
+      "episode": 6,
+      "find": "Even my cousin Riya",
+      "replace": "Even my sister Riya"
+    },
+    {
+      "episode": 3,
+      "find": "Shankar dies at the scene of the crash, still gripping the wheel.",
+      "replace": "Shankar survives the crash with a broken arm."
+    },
+    {
+      "episode": 2,
+      "find": "Meera burns the contract in the fireplace as the family watches in silence.",
+      "replace": "Meera reads the contract by the fireplace as the family watches in silence."
+    },
+    {
+      "episode": 6,
+      "find": "Arjun is thirty-four years old",
+      "replace": "Arjun is thirty years old"
+    },
+    {
+      "episode": 7,
+      "find": "Meera learns that Arjun is the heir of Mehra Group, and the room spins.",
+      "replace": "Meera remembers the day she learned the truth, and the room spins."
+    },
+    {
+      "episode": 5,
+      "find": "Vikram is my cousin, nothing more.",
+      "replace": "Vikram is my brother, nothing more."
+    },
+    {
+      "episode": 6,
+      "find": "where Dadi was still in a coma",
+      "replace": "where Dadi walked back in on her own"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+name: period_drama
+description: Historical or aristocratic drama (titles, estates, arranged marriages, inheritance).
+allowed_devices: [lies, disguises, hidden noble identity, titles passing to an heir, forged documents, flashbacks]
+judge_notes: >
+  Titles such as "the Duke" or "the Dowager" can refer to different people over time when a title
+  is inherited. A character posing as a servant or commoner is a disguise, not a contradiction.

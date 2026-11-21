@@ -1,0 +1,19 @@
+# confidential input and anything derived from it - never commit
+data/private/
+private_runs/
+*_planted*/
+eval/labels/*.csv
+!eval/labels/*_TEMPLATE_example.csv
+# generated
+.cache/
+app_runs/
+outputs/
+eval_out/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.DS_Store
+.env.*
+!.env.example

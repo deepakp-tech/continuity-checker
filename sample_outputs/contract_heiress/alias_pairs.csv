@@ -1,0 +1,4 @@
+label_a,label_b,status,tool_verdict,confidence,co_scenes,reason
+ARJUN,ARJUN MEHRA,merged_auto,same,0.90,0,name contained in the other label and supported by address/action lines
+MEERA,MEERA SHARMA,merged_auto,same,0.90,0,name contained in the other label and supported by address/action lines
+ARJUN MEHRA,MR. MEHRA,separate_coscene,different,1.00,1,both speak in 1 shared scene(s) - cannot be one person

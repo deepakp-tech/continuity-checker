@@ -1,0 +1,30 @@
+EPISODE NUMBER: Episode 6
+EPISODE LOGLINE: Back home, Meera confronts Riya about the debts, while the papers celebrate Arjun's birthday.
+CONTINUITY NOTES: Follows Episode 5, where Dadi was still in a coma.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. SHARMA HOUSE – NIGHT
+Scene start: 00:00.00
+Scene end: 00:15.01
+
+Actions and dialogue:
+
+**ACTION:**
+Start: (00:00.00) | End: (00:03.90)
+Meera stares at the unpaid bills spread across the table.
+
+**MEERA SHARMA (Hurt):**
+Start: (00:03.12) | End: (00:06.85)
+"Even my cousin Riya never understood what I gave up."
+
+**ACTION:**
+Start: (00:06.11) | End: (00:11.37)
+On the birthday cake in the newspaper photo, the caption is clear: Arjun is thirty-four years old.
+
+**RIYA (Tearful):**
+Start: (00:10.32) | End: (00:13.69)
+"I never asked you to sell yourself, Didi."
+
+--- SCRIPT END ---

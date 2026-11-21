@@ -1,0 +1,38 @@
+EPISODE NUMBER: Episode 3
+EPISODE LOGLINE: A crash on the highway kills the loyal bodyguard and leaves Dadi fighting for her life.
+CONTINUITY NOTES: Follows Episode 2, where Meera burned the contract.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: EXT. HIGHWAY – NIGHT
+Scene start: 00:00.00
+Scene end: 00:19.87
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.77)
+Headlights flare; a truck swerves across the divider.
+
+**SOUND FX:**
+Start: (00:03.01) | End: (00:05.95)
+Metal screams against metal.
+
+**ACTION:**
+Start: (00:05.36) | End: (00:09.53)
+Shankar dies at the scene of the crash, still gripping the wheel.
+
+**ACTION:**
+Start: (00:08.69) | End: (00:12.33)
+Dadi is badly injured and rushed to the hospital.
+
+**VIKRAM (Grim):**
+Start: (00:11.60) | End: (00:15.43)
+"Arjun is my brother, and this accident was no accident."
+
+**CAMERA:**
+Start: (00:14.67) | End: (00:18.67)
+Slow tilt up to Vikram's face lit by flashing police lights.
+
+--- SCRIPT END ---

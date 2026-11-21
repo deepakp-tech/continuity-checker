@@ -1,0 +1,42 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: At a tense Mehra family dinner Meera signs a marriage contract to save her sister, then destroys it.
+CONTINUITY NOTES: Follows Episode 1, where Meera met Arjun the driver.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. MEHRA MANSION DINING HALL – NIGHT
+Scene start: 00:00.00
+Scene end: 00:23.87
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.63)
+Wide shot of a long table glittering with silver.
+
+**MR. MEHRA (Cold):**
+Start: (00:02.91) | End: (00:07.01)
+"A contract marriage, Miss Sharma. One year. Then you disappear."
+
+**ARJUN (Quiet):**
+Start: (00:06.19) | End: (00:09.62)
+"Father, she has not agreed to anything yet."
+
+**MEERA (Defiant):**
+Start: (00:08.93) | End: (00:12.70)
+"Riya is my younger sister. I will not let her starve."
+
+**ARJUN (Bitter):**
+Start: (00:11.95) | End: (00:16.48)
+"Nandini is my ex-fiancee. That ended long ago, whatever she tells the press."
+
+**ACTION:**
+Start: (00:15.57) | End: (00:20.07)
+Meera burns the contract in the fireplace as the family watches in silence.
+
+**SHANKAR (Low):**
+Start: (00:19.17) | End: (00:22.54)
+"Sir, the cars are ready whenever you are."
+
+--- SCRIPT END ---

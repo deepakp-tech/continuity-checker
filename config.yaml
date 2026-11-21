@@ -1,0 +1,56 @@
+# Continuity Checker configuration.
+# Switch models by editing `stages` only. Every provider uses the OpenAI-style chat API.
+# Check current model ids in each provider's console - free models change often.
+
+providers:
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+    json_mode: true
+    min_seconds_between_calls: 2.5     # free tier: ~30 requests/min and a tokens/min cap
+    timeout_seconds: 120
+  gemini:
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+    json_mode: true
+    min_seconds_between_calls: 4.5
+    timeout_seconds: 120
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    json_mode: false
+    min_seconds_between_calls: 3.5     # free models: 20 requests/min
+    timeout_seconds: 120
+  ollama:                               # local, private, unlimited (lower quality on small models)
+    base_url: http://localhost:11434/v1
+    api_key_env: ""                     # no key needed
+    json_mode: true
+    min_seconds_between_calls: 0
+    timeout_seconds: 300
+
+# One entry per pipeline stage. provider: rules = no LLM (rule-based baseline, works offline).
+# Tip: use different models for different stages - free-tier limits are per model.
+stages:
+  default:   {provider: groq, model: openai/gpt-oss-20b}
+  parse:     {provider: groq, model: openai/gpt-oss-20b, max_tokens: 8000}   # only used for unknown formats
+  alias:     {provider: groq, model: openai/gpt-oss-120b}
+  extract:   {provider: groq, model: openai/gpt-oss-20b, max_tokens: 4000}
+  entail:    {provider: groq, model: qwen/qwen3.8-27b}   # a DIFFERENT model family (Alibaba Qwen) checks extraction
+  # was: {provider: gemini, model: gemini-flash-latest} - Gemini's free tier allows only ~20 requests/day
+  judge:     {provider: groq, model: openai/gpt-oss-120b}
+  notes:     {provider: groq, model: openai/gpt-oss-120b}
+
+retry:
+  max_attempts: 6
+  base_seconds: 2.0
+
+pipeline:
+  genre: period_drama              # a file name in profiles/
+  min_parse_coverage: 0.95         # below this the parser warns or falls back to the LLM parser
+  scene_chunk_chars: 6000          # max characters of a scene sent in one extraction call
+  quote_match_threshold: 90        # 0-100 fuzzy score a fact's quote needs against its line
+  entailment_check: true           # second-model check that each quote really states its fact
+  notes_check: true                # check CONTINUITY NOTES against the episodes they reference
+  max_judge_pairs: 400             # safety cap on judge calls per run
+  alias_auto_merge_confidence: 0.85
+  workers: 1                       # parallel LLM calls (keep 1 on free tiers)

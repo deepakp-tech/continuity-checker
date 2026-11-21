@@ -1,0 +1,54 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: Meera, drowning in debt, meets the quiet new driver Arjun on the night her landlord threatens eviction.
+CONTINUITY NOTES: First episode of the series.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. SHARMA HOUSE – NIGHT
+Scene start: 00:00.00
+Scene end: 00:32.48
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:04.13)
+Slow push in on a cramped living room lit by a single bare bulb.
+
+**ACTION:**
+Start: (00:03.31) | End: (00:07.81)
+Meera wears the gold bangle her late father gave her, turning it nervously.
+
+**MEERA (Tired):**
+Start: (00:06.91) | End: (00:10.21)
+"Riya, did you pay the electricity bill?"
+
+**RIYA (Guilty):**
+Start: (00:09.55) | End: (00:13.05)
+"Not yet, Didi. The landlord came again today."
+
+**SOUND FX:**
+Start: (00:12.35) | End: (00:15.38)
+Tyres crunch on gravel outside.
+
+**ACTION:**
+Start: (00:14.77) | End: (00:19.11)
+Arjun works as a driver for the Mehra family, or so everyone believes.
+
+**ACTION:**
+Start: (00:18.24) | End: (00:22.77)
+Arjun is thirty years old, broad-shouldered, with a thin scar along his jaw.
+
+**SHANKAR (Gruff):**
+Start: (00:21.87) | End: (00:25.20)
+"Sir, Mr. Mehra is waiting. We should go."
+
+**ARJUN (Calm):**
+Start: (00:24.53) | End: (00:28.50)
+"Five minutes, Shankar. Miss Meera, your gate was left open."
+
+**CAMERA:**
+Start: (00:27.71) | End: (00:31.17)
+Close-up on Meera, wary and curious at once.
+
+--- SCRIPT END ---

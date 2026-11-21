@@ -1,0 +1,45 @@
+{
+  "show_input": "eval/synthetic/contract_heiress",
+  "genre": "billionaire_romance",
+  "format": "kuku_timestamped_v1",
+  "coverage": 1.0,
+  "episodes": 8,
+  "lines": 45,
+  "episodes_extracted_this_run": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "labels": 10,
+  "characters": 8,
+  "merges_auto": 2,
+  "merges_human": 0,
+  "merges_pending": 0,
+  "merges_vetoed_same_scene": 1,
+  "candidates": 9,
+  "notes_check": "skipped: the notes check needs an LLM (stage 'notes' is set to rules)",
+  "models": {
+    "parse": "rules (no LLM)",
+    "alias": "rules (no LLM)",
+    "extract": "rules (no LLM)",
+    "entail": "rules (no LLM)",
+    "judge": "rules (no LLM)",
+    "notes": "rules (no LLM)"
+  },
+  "llm_stats": {
+    "calls": 0,
+    "cache_hits": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "errors": 0,
+    "per_stage": {}
+  },
+  "seconds": 0.0,
+  "warnings": [],
+  "mode": "full"
+}

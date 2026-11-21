@@ -1,0 +1,26 @@
+EPISODE NUMBER: Episode 7
+EPISODE LOGLINE: A familiar voice in the Mehra garage makes Meera relive the truth all over again.
+CONTINUITY NOTES: Follows Episode 6, where Meera and Riya argued.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. MEHRA GARAGE – DAY
+Scene start: 00:00.00
+Scene end: 00:10.99
+
+Actions and dialogue:
+
+**SHANKAR (Gruff):**
+Start: (00:00.00) | End: (00:03.27)
+"Sir, the car is ready. Where to today?"
+
+**ACTION:**
+Start: (00:02.61) | End: (00:06.98)
+Meera learns that Arjun is the heir of Mehra Group, and the room spins.
+
+**ARJUN MEHRA (Soft):**
+Start: (00:06.11) | End: (00:09.71)
+"I wanted you to know me before you knew my name."
+
+--- SCRIPT END ---

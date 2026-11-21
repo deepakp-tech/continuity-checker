@@ -1,0 +1,6 @@
+name: fantasy
+description: Supernatural or fantasy drama (magic, rebirth, time travel, curses).
+allowed_devices: [lies, disguises, resurrection, rebirth or reincarnation, time travel, shapeshifting, curses, visions]
+judge_notes: >
+  A dead character returning can be legitimate here if the context shows magic, rebirth or time travel.
+  Without such context in the lines shown, a return after death is still a contradiction.

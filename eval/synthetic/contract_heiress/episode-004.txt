@@ -1,0 +1,38 @@
+EPISODE NUMBER: Episode 4
+EPISODE LOGLINE: At the hospital Meera discovers who Arjun really is, while Nandini spins a lie for the cameras.
+CONTINUITY NOTES: Follows Episode 3, where Shankar died in the crash.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. CITY HOSPITAL CORRIDOR – DAY
+Scene start: 00:00.00
+Scene end: 00:20.19
+
+Actions and dialogue:
+
+**ACTION:**
+Start: (00:00.00) | End: (00:03.70)
+Meera learns that Arjun is the heir of Mehra Group.
+
+**NANDINI (Sweet, to reporters):**
+Start: (00:02.96) | End: (00:06.63)
+"Arjun is my husband. We married quietly in London."
+
+**ACTION:**
+Start: (00:05.89) | End: (00:10.29)
+Nandini smiles at the cameras, knowing the lie will spread by nightfall.
+
+**ACTION:**
+Start: (00:09.41) | End: (00:13.31)
+Meera loses the bangle in the crowd at the hospital gate.
+
+**NANDINI'S MOTHER (Smug):**
+Start: (00:12.53) | End: (00:16.40)
+"My daughter will be Mrs. Mehra by winter. Mark my words."
+
+**MEERA (Shaken):**
+Start: (00:15.63) | End: (00:18.83)
+"Why didn't you tell me who you were?"
+
+--- SCRIPT END ---

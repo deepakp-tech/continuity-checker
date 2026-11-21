@@ -1,0 +1,4 @@
+name: generic
+description: Any serialized drama. No special story devices assumed.
+allowed_devices: [lies, disguises, flashbacks, dreams]
+judge_notes: Treat a character's dialogue as a claim. Only action lines are certainly true.

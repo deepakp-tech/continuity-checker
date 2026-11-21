@@ -1,0 +1,43 @@
+{
+  "show_input": "eval/synthetic/river_witch",
+  "genre": "fantasy",
+  "format": "screenplay_v1",
+  "coverage": 1.0,
+  "episodes": 6,
+  "lines": 24,
+  "episodes_extracted_this_run": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "labels": 8,
+  "characters": 6,
+  "merges_auto": 2,
+  "merges_human": 0,
+  "merges_pending": 0,
+  "merges_vetoed_same_scene": 0,
+  "candidates": 3,
+  "notes_check": "skipped: the notes check needs an LLM (stage 'notes' is set to rules)",
+  "models": {
+    "parse": "rules (no LLM)",
+    "alias": "rules (no LLM)",
+    "extract": "rules (no LLM)",
+    "entail": "rules (no LLM)",
+    "judge": "rules (no LLM)",
+    "notes": "rules (no LLM)"
+  },
+  "llm_stats": {
+    "calls": 0,
+    "cache_hits": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "errors": 0,
+    "per_stage": {}
+  },
+  "seconds": 0.0,
+  "warnings": [],
+  "mode": "full"
+}
